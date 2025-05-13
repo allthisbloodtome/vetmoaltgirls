@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Игровые компьютеры | Pixel Global</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"></circle>
+          <line x1="2" y1="12" x2="22" y2="12"></line>
+          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+        </svg>
+        <span>Pixel Global</span>
+      </div>
+      <nav>
+        <a href="index.html">Главная</a>
+        <a href="products.html">Сборки</a>
+        <a href="about.html">О нас</a>
+        <a href="contact.html">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="products-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Наши игровые сборки</h2>
+        <p>Выберите идеальный игровой компьютер из наших профессионально собранных конфигураций</p>
+      </div>
+
+      <div class="products-filters">
+        <button class="filter-button active" data-filter="all">Все сборки</button>
+        <button class="filter-button" data-filter="starter">Начальный уровень</button>
+        <button class="filter-button" data-filter="mid">Средний уровень</button>
+        <button class="filter-button" data-filter="high">Высокий уровень</button>
+      </div>
+
+      <div class="products-grid">
+        <div class="card" data-category="starter">
+          <div class="green-header" style="height: 8px;"></div>
+          <div class="card-header">
+            <div class="card-header-content">
+              <h3 class="card-title">Pixel Starter</h3>
+            </div>
+            <p class="card-description">Начальный уровень</p>
+          </div>
+          <div class="card-image-container">
+            <div class="card-image">
+              <img src="images/pc-starter.jpg" alt="Игровой компьютер Pixel Starter">
+            </div>
+          </div>
+          <div class="card-content">
+            <h4 class="card-price">399,950 ₸</h4>
+            <ul class="card-specs">
+              <li><span>•</span><span>AMD Ryzen 5 5600X</span></li>
+              <li><span>•</span><span>NVIDIA GeForce RTX 3060</span></li>
+              <li><span>•</span><span>16GB DDR4 3200MHz</span></li>
+              <li><span>•</span><span>1TB NVMe SSD</span></li>
+              <li><span>•</span><span>Корпус RGB с подсветкой</span></li>
+            </ul>
+          </div>
+          <div class="card-footer">
+            <a href="product-starter.html" class="btn btn-primary btn-full">Подробнее</a>
+            <a href="product-starter.html" class="btn btn-outline btn-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="card card-featured" data-category="mid">
+          <div class="blue-header" style="height: 8px;"></div>
+          <div class="card-header">
+            <div class="card-header-content">
+              <h3 class="card-title">Pixel Pro</h3>
+              <span class="card-badge">Популярный</span>
+            </div>
+            <p class="card-description">Продвинутый уровень</p>
+          </div>
+          <div class="card-image-container">
+            <div class="card-image">
+              <img src="images/pc-pro.jpg" alt="Игровой компьютер Pixel Pro">
+            </div>
+          </div>
+          <div class="card-content">
+            <h4 class="card-price">749,950 ₸</h4>
+            <ul class="card-specs">
+              <li><span>•</span><span>Intel Core i7-12700K</span></li>
+              <li><span>•</span><span>NVIDIA GeForce RTX 3080</span></li>
+              <li><span>•</span><span>32GB DDR5 5200MHz</span></li>
+              <li><span>•</span><span>2TB NVMe SSD</span></li>
+              <li><span>•</span><span>Жидкостное охлаждение</span></li>
+            </ul>
+          </div>
+          <div class="card-footer">
+            <a href="product-pro.html" class="btn btn-primary btn-full">Подробнее</a>
+            <a href="product-pro.html" class="btn btn-outline btn-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="card" data-category="high">
+          <div class="purple-header" style="height: 8px;"></div>
+          <div class="card-header">
+            <div class="card-header-content">
+              <h3 class="card-title">Pixel Ultra</h3>
+            </div>
+            <p class="card-description">Экстремальный уровень</p>
+          </div>
+          <div class="card-image-container">
+            <div class="card-image">
+              <img src="images/pc-ultra.jpg" alt="Игровой компьютер Pixel Ultra">
+            </div>
+          </div>
+          <div class="card-content">
+            <h4 class="card-price">1,249,950 ₸</h4>
+            <ul class="card-specs">
+              <li><span>•</span><span>Intel Core i9-13900K</span></li>
+              <li><span>•</span><span>NVIDIA GeForce RTX 4090</span></li>
+              <li><span>•</span><span>64GB DDR5 6000MHz</span></li>
+              <li><span>•</span><span>4TB NVMe SSD</span></li>
+              <li><span>•</span><span>Полностью настраиваемое жидкостное охлаждение</span></li>
+            </ul>
+          </div>
+          <div class="card-footer">
+            <a href="product-ultra.html" class="btn btn-primary btn-full">Подробнее</a>
+            <a href="product-ultra.html" class="btn btn-outline btn-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-container">
+        <div class="footer-logo">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="2" y1="12" x2="22" y2="12"></line>
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+          </svg>
+          <p class="footer-copyright">&copy; 2025 Pixel Global. Все права защищены.</p>
+        </div>
+        <div class="footer-links">
+          <a href="terms.html">Условия</a>
+          <a href="privacy.html">Конфиденциальность</a>
+          <a href="warranty.html">Гарантия</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script>
+    // Product filtering
+    document.addEventListener('DOMContentLoaded', function() {
+      const filterButtons = document.querySelectorAll('.filter-button');
+      const products = document.querySelectorAll('.products-grid .card');
+      
+      filterButtons.forEach(button => {
+        button.addEventListener('click', function() {
+          // Update active button
+          filterButtons.forEach(btn => btn.classList.remove('active'));
+          this.classList.add('active');
+          
+          const filter = this.getAttribute('data-filter');
+          
+          // Filter products
+          products.forEach(product => {
+            if (filter === 'all' || product.getAttribute('data-category') === filter) {
+              product.style.display = 'block';
+            } else {
+              product.style.display = 'none';
+            }
+          });
+        });
+      });
+    });
+  </script>
+</body>
+</html>
